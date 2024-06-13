@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixabay</title>
+    <style>
+        div{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        *{
+            background-color: palevioletred;
+            
+        }
+        #demo{
+            margin-top: 50px;
+            position: absolute;
+            align-items: center;
+        }
+        #btn{
+            border-radius: 10px;
+            height: 45px;
+            width: 150px;
+            margin-left: 45px;
+            font-size: 20px;
+            color: white;
+        }
+        #btn:hover{
+            border: #fff;
+            background-color: purple;
+            color: white;
+        }
+        #search{
+            height: 35px;
+            width: 200px;
+            margin-left: 50px;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+       
+    </style>
+</head>
+<body>
+    
+        <h1>You can Search here pixabay images</h1>
+        <input type="search" name="search" id="search">
+        <button id="btn">Search</button>
+    
+        <div id="demo">
+
+         </div>
+
+    <script src="./pixabay.js"></script>
+</body>
+</html>
